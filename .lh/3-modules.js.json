@@ -1,0 +1,18 @@
+{
+    "sourceFile": "3-modules.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1688217427997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1688217427997,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

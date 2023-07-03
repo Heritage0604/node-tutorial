@@ -1,0 +1,2 @@
+this is the first text in the first text folder
+Hello world this is first text file

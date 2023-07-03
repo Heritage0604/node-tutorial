@@ -1,0 +1,38 @@
+{
+    "sourceFile": "5-utils.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1688215198448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688215211615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+const sayHi=(name)=>{\r\n+    console.log(`Hello there ${name} `)\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688215725163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n const sayHi=(name)=>{\r\n     console.log(`Hello there ${name} `)\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+module.exports\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688215731172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const sayHi=(name)=>{\r\n     console.log(`Hello there ${name} `)\r\n }\r\n \r\n-module.exports\n\\ No newline at end of file\n+module.exports=\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688215742196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const sayHi=(name)=>{\r\n     console.log(`Hello there ${name} `)\r\n }\r\n \r\n-module.exports=\n\\ No newline at end of file\n+module.exports={}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688215766784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const sayHi=(name)=>{\r\n     console.log(`Hello there ${name} `)\r\n }\r\n \r\n-module.exports={}\n\\ No newline at end of file\n+module.exports= sayHi\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688215198448,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

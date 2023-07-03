@@ -1,0 +1,54 @@
+{
+    "sourceFile": "6-alternative-flavour.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1688216392199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688216397880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const \n\\ No newline at end of file\n+const items=[]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216403169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const items=[]\n\\ No newline at end of file\n+const items=[\"Item 1\", \"Item 2\", \"Item 3\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216416309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-const items=[\"Item 1\", \"Item 2\", \"Item 3\"]\n\\ No newline at end of file\n+const items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n+const person \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216423157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n const items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n-const person \n\\ No newline at end of file\n+const person ={\r\n+    name:\"bob\"\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216430980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n const items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n const person ={\r\n-    name:\"bob\"\r\n+    name:\"bob\",\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216455810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-const items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n+module items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n const person ={\r\n     name:\"bob\",\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216478659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-module items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n+module.exports items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n const person ={\r\n     name:\"bob\",\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216493856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-module.exports items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n-const person ={\r\n+module.exports.items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n+person ={\r\n     name:\"bob\",\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688216499128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n module.exports.items=[\"Item 1\", \"Item 2\", \"Item 3\", \"Item 4\", \"Item 5\"]\r\n-person ={\r\n+module.exports.person ={\r\n     name:\"bob\",\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688216392199,
+            "name": "Commit-0",
+            "content": "const "
+        }
+    ]
+}

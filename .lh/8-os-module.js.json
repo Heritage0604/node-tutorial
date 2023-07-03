@@ -1,0 +1,22 @@
+{
+    "sourceFile": "8-os-module.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1688218103946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688218122530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const os = require('os');\r\n+// info about current user\r\n+const user=os.userInfo()\r\n+console.log(user)\r\n+\r\n+// method returns the system up time in seconds\r\n+console.log(os.freemem())\r\n+console.log(os.totalmem())\r\n+// the os module interacts with the operating system of a \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688218103946,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

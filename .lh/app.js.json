@@ -1,0 +1,54 @@
+{
+    "sourceFile": "app.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1688214402886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688214409236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+console.log(__)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214434566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-console.log(__)\n\\ No newline at end of file\n+console.log(__dirname)\r\n+console.log(__dirname)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214439814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n console.log(__dirname)\r\n-console.log(__dirname)\n\\ No newline at end of file\n+console.log(__file)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214467308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n console.log(__dirname)\r\n-console.log(__file)\n\\ No newline at end of file\n+console.log(__filename)\r\n"
+                },
+                {
+                    "date": 1688214472598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n console.log(__dirname)\r\n console.log(__filename)\r\n+setInterval\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214478548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n console.log(__dirname)\r\n console.log(__filename)\r\n-setInterval\n\\ No newline at end of file\n+setInterval(()=>{\r\n+    \r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214491602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n console.log(__dirname)\r\n console.log(__filename)\r\n setInterval(()=>{\r\n-    \r\n-})\n\\ No newline at end of file\n+console.log(\"hello world\")\r\n+},1000)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214515669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n setInterval(()=>{\r\n console.log(\"hello world\")\r\n },1000)\r\n \r\n-// dirname b\n\\ No newline at end of file\n+// dirname bg\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688214842802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Modules\r\n const sayHi=(name)=>{\r\n     console.log(name)\r\n }\r\n-say\n\\ No newline at end of file\n+sayh\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688214402886,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

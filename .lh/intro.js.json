@@ -1,0 +1,18 @@
+{
+    "sourceFile": "intro.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1688212495801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1688212495801,
+            "name": "Commit-0",
+            "content": "console.log(\"Hello World It is my first Mode App\")\r\nconst amount=12\r\nif(amount<10){\r\n    console.log(\"small amount\")\r\n}\r\nelse {\r\n    console.log(\"large amount\")\r\n}\r\nconsole.log(global)\r\n// this is the introduction to node js"
+        }
+    ]
+}

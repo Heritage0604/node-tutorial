@@ -1,0 +1,30 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1688398534507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688398540837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-/\n\\ No newline at end of file\n+/node_modu\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688398570497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+/node_modulesb\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688398584152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,1 @@\n-/node_modulesb\n-/node_modu\n\\ No newline at end of file\n+/node_modulesgit\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688398534507,
+            "name": "Commit-0",
+            "content": "/"
+        }
+    ]
+}
